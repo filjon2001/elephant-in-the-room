@@ -1,0 +1,12 @@
+body {
+    background-image: url('Football Shirts/Background.jpg');
+    background-size: cover;
+}
+
+img {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 10rem;
+    height: 10rem;
+}
