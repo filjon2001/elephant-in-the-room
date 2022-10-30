@@ -1,20 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Ten good football shirts</title>
-</head>
+<link rel="stylesheet" href="style.css">
 
 <body>
-
-    <?php
-    require "randomizeFunction.php";
-    ?>
-
+    <header>
+        <h1>Ten good football shirts</h1>
+    </header>
 </body>
 
-</html>
+<?php
+require "randomFunction.php";
+require "shirtInfo.php";
+?>
+
+<div class="button">
+    <button type="button" onClick="refreshPage()">Get another one</button>
+</div>
+
+<script>
+    function refreshPage() {
+        window.location.reload();
+    }
+</script>
