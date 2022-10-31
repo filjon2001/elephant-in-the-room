@@ -2,6 +2,19 @@
 
 declare(strict_types=1);
 
+$shirts = array(
+    "Football shirts/Arsenal Home Shirt 2005-2006.png",
+    "Football shirts/Brazil Home Shirt 1986.png",
+    "Football shirts/England Away Shirt 1999-2001.png",
+    "Football shirts/Fiorentina Home Shirt 1998-1999.png",
+    "Football shirts/France Home Shirt 1998.png",
+    "Football shirts/IFK Göteborg Home Shirt 1994-1996.png",
+    "Football shirts/Liverpool Away Shirt 1990-1991.png",
+    "Football shirts/Mexico Home Shirt 1986.png",
+    "Football shirts/New York Cosmos Home Shirt 1977.png",
+    "Football shirts/West Ham Home Shirt 1999-2001.png"
+);
+
 $articles = [
     [
         'title' => "Arsenal Home Shirt 2005-2006",
@@ -126,13 +139,3 @@ $articles = [
         'source' => 'Wikipedia',
     ],
 ];
-
-foreach ($articles as $article) {
-    $title = $article['title'];
-    $img = $article['img'];
-    $infoText = $article['infotext'];
-    $alt = $article['alt'];
-    $author = $article['source'];
-
-    print_r($title);
-}

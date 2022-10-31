@@ -1,33 +1,37 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  background-image: url('Background.jpg');
-  background-size: cover;
-  width: 100%;
-  height: 100%;
+    background-image: url('Background.jpg');
+    background-size: cover;
 }
 h1 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 4rem;
-  color: floralwhite;
-  text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4rem;
+    color: floralwhite;
+    text-align: center;
+}
+.shirtContainer, .buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 img {
-  display: flex;
-  justify-content: center;
-  width: 10rem;
-  height: 10rem;
+    display: flex;
+    justify-content: center;
+    width: 10rem;
+    height: 10rem;
 }
 
-.button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: floralwhite;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 1rem;
+button {
+    margin-top: 3rem;
+    background-color: floralwhite;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
 }
+
