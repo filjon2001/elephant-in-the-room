@@ -125,4 +125,24 @@ $articles = [
         'alt' => "Paolo Di Canio just after hitting the ball, playing in West Ham's shirt.",
         'source' => 'Wikipedia',
     ],
-];
+]; ?>
+
+<link rel="stylesheet" href="style.css">
+<div class="presentation">
+    <?php foreach ($articles as $article) : ?>
+        <?php
+        $title = $article['title'];
+        $img = $article['img'];
+        $infoText = $article['infotext'];
+        $alt = $article['alt'];
+        $source = $article['source'];
+        ?>
+
+        <article>
+            <h2 class="articleHeading"><?= ucwords("$title"); ?></h2>
+            <img src="<?= $img; ?>" alt="<?= $alt; ?>">
+            <p class="infoText"><?= "$infoText"; ?></p>
+            <p class="source">Source: <?= "$source"; ?></p>
+        </article>
+    <?php endforeach; ?>
+</div>
