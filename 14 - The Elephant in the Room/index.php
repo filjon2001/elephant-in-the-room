@@ -1,9 +1,9 @@
-<link rel="stylesheet" href="style.css">
-
 <?php
 require(__DIR__ . '/randomFunction.php');
-// require "shirtInfo.php";
+require "shirtInfo.php";
 ?>
+
+<link rel="stylesheet" href="style.css">
 
 <body>
     <header>
@@ -18,6 +18,24 @@ require(__DIR__ . '/randomFunction.php');
     <section class="buttonContainer">
         <button type="button" onClick="refreshPage()">Get another one</button>
     </section>
+
+    <div>
+        <?php foreach ($articles as $article) : ?>
+            <?php
+            $title = $article['title'];
+            $img = $article['img'];
+            $infoText = $article['infotext'];
+            $alt = $article['alt'];
+            $source = $article['source'];
+            ?>
+
+            <article>
+                <h2><?= ucwords("$title"); ?></h2>
+                <img src="<?= $img; ?>" alt="<?= $alt; ?>">
+                <p class="infoText"><?= "$infoText"; ?></p>
+            </article>
+        <?php endforeach; ?>
+    </div>
 </body>
 
 <script>
