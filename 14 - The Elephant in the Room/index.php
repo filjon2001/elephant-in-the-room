@@ -7,7 +7,7 @@ require(__DIR__ . '/randomFunction.php');
 
 <body>
     <header>
-        <h1>Ten good football shirts</h1>
+        <h1>Ten great football shirts</h1>
     </header>
     <br>
 
@@ -22,6 +22,8 @@ require(__DIR__ . '/randomFunction.php');
 
 <script>
     function refreshPage() {
-        window.location.reload();
+        if (true) {
+            return window.location.reload();
+        }
     }
 </script>

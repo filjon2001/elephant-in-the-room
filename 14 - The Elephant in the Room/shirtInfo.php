@@ -2,6 +2,19 @@
 
 declare(strict_types=1);
 
+$players = [
+    [$name => 'Thierry Henry', $year => 2005],
+    [$name => 'Socrates', $year => 1986],
+    [$name => 'David Beckham', $year => 2001],
+    [$name => 'Gabriel Batistuta', $year => 1998],
+    [$name => 'Zinedine Zidane', $year => 1998],
+    [$name => 'Jesper Blomqvist', $year => 1],
+    [$name => 'Glenn Hysén', $year => 1991],
+    [$name => 'Hugo Sanchez', $year => 1986],
+    [$name => 'Pelé', $year => 1977],
+    [$name => 'Paolo Di Canio', $year => 2000],
+];
+
 $articles = [
     [
         'title' => "Arsenal Home Shirt 2005-2006",
@@ -98,7 +111,7 @@ $articles = [
     
     Mexico is historically the most successful national team in the CONCACAF region, having won eleven confederation titles, including eight CONCACAF Gold Cups and three CONCACAF Championships (the precursor to the Gold Cup), as well as two NAFC Championships, one North American Nations Cup, one CONCACAF Cup and two gold medals of the Central American and Caribbean Games. It is one of eight nations to have won two of the three most important football tournaments (the World Cup, Confederations Cup, and Summer Olympics), having won the 1999 FIFA Confederations Cup and the 2012 Summer Olympics. Mexico is also the only team from CONCACAF to have won an official FIFA competition, winning the 1999 FIFA Confederations Cup. Although Mexico is under the jurisdiction of CONCACAF, the national team was regularly invited to compete in the Copa América from 1993 to 2016, finishing runner-up twice – in 1993 and 2001 – and obtaining the third-place medal on three occasions.",
         'img' => "<img src=In action/Mexico Home Shirt 1986 - In action.jpg>",
-        'alt' => "A curly haired player wearing the mexican shirt in a game",
+        'alt' => "The curly haired player Hugo Sanchez wearing the mexican shirt in a game",
         'source' => 'wikiwand.com',
     ],
 
@@ -132,7 +145,7 @@ foreach ($articles as $article) {
     $img = $article['img'];
     $infoText = $article['infotext'];
     $alt = $article['alt'];
-    $author = $article['source'];
+    $source = $article['source'];
 
     print_r($title);
 }
