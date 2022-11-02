@@ -1,16 +1,17 @@
-INSERT MANDATORY GIF
+![Lionel Messi holding up his shirt](https://78.media.tumblr.com/5694c615b0260823db0cc54fc77c1769/tumblr_oovr7wUpKy1uqdbpso1_1280.gif)
 
 # Project Title
 
-Text about the project and why it exists. This would also be a great place to link the project on One.com.
+I've always loved football in general, and the shirts/jerseys in particular.
+An amazing freekick or a spectacular pass is hard to achieve, but creating a memorable shirt is way harder. Here is a glimpse of the classics according to my own taste and opinion.
 
 # Installation
 
-Add the installation instructions.
+Visit: https://www.filipjonasson.com/elephpant/index.php
 
 # Code Review
 
-Code review written by [Jane Doh](https://github.com/username).
+Code review written by [Thomas Danielsson](https://github.com/username).
 
 1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
 2. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
@@ -22,5 +23,5 @@ Code review written by [Jane Doh](https://github.com/username).
 
 Tested by the following people:
 
-1. Jane Doe
-2. John Doe
+1. Vali Al Osachi
+2.

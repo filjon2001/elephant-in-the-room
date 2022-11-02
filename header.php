@@ -16,7 +16,6 @@
 
 <header>
     <h1>Ten great football shirts</h1>
-    <a href="index.php"></a>
 </header>
 
 <main>
