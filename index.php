@@ -1,10 +1,12 @@
 <?php
-require "header.php";
-require "randomFunction.php";
+require __DIR__ . "/header.php";
+require __DIR__ . "/randomFunction.php";
+
+$shirt = getRandomShirt($shirts);
 ?>
 
 <section class="shirtContainer">
-    <a href="shirtInfo.php"><img src="<?php echo getRandomShirt($shirts); ?>" width="10rem" height="10rem" /></a>
+    <a href="shirtInfo.php?shirtIndex=<?= $shirtIndex ?>"><img src="<?php echo $shirt; ?>" width="10rem" height="10rem" /></a>
 </section>
 
 <section class="buttonContainer">
