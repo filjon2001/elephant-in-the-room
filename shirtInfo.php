@@ -14,10 +14,10 @@ require __DIR__ . "/arrays.php"
     $source = $article['source'];
     ?>
 
+    <h2 class="articleHeading"><?= ucwords("$title"); ?></h2>
     <article class="gridContainer">
-        <h2 class="articleHeading"><?= ucwords("$title"); ?></h2>
         <img src="<?= $img; ?>" class="inActionImg" alt="<?= $alt; ?>">
         <p class="infoText"><?= "$infoText"; ?></p>
-        <footer>Source: <?= "$source"; ?></footer>
     </article>
+    <footer>Source: <?= "$source"; ?></footer>
 </div>

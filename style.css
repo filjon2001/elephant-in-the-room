@@ -5,6 +5,7 @@
 body {
   background-image: url('Background.jpg');
   background-size: cover;
+  margin: 0;
 }
 h1 {
   display: flex;
@@ -16,7 +17,8 @@ h1 {
 }
 
 h2 {
-  margin-block-end: 2rem;
+  padding-left: 4rem;
+  padding-top: 3rem;
 }
 
 .shirtContainer,
@@ -26,8 +28,6 @@ h2 {
   align-items: center;
 }
 img {
-  display: flex;
-  justify-content: center;
   width: 10rem;
   height: 10rem;
 }
@@ -42,16 +42,23 @@ button {
 }
 
 article {
-  padding-inline: 1rem;
+  margin-block-end: 2rem;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 3rem;
 }
 
 .gridContainer {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 30rem auto;
+  align-items: center;
 }
 
 .presentation {
-  background-image: url('Background.jpg');
+  background-image: url('Background presentation.png');
   background-size: cover;
   height: 100vh;
 }
@@ -65,6 +72,7 @@ article {
   font-family: 'Roboto', sans-serif;
   font-size: 1.1rem;
   grid-column: 2;
+  padding-right: 3rem;
 }
 
 .inActionImg {
@@ -72,4 +80,5 @@ article {
   width: 24rem;
   height: 24rem;
   object-fit: cover;
+  padding-left: 4rem;
 }
