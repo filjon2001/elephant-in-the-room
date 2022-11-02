@@ -19,6 +19,7 @@ h1 {
 h2 {
   padding-left: 4rem;
   padding-top: 3rem;
+  margin-bottom: 0;
 }
 
 .shirtContainer,
@@ -55,6 +56,8 @@ footer {
   display: grid;
   grid-template-columns: 30rem auto;
   align-items: center;
+  padding-top: 1rem;
+  margin-bottom: 0;
 }
 
 .presentation {
@@ -81,4 +84,9 @@ footer {
   height: 24rem;
   object-fit: cover;
   padding-left: 4rem;
+}
+
+.emojis {
+  display: flex;
+  justify-content: center;
 }

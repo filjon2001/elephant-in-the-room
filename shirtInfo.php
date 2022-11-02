@@ -15,9 +15,15 @@ require __DIR__ . "/arrays.php"
     ?>
 
     <h2 class="articleHeading"><?= ucwords("$title"); ?></h2>
+    <div class="emojis"><?php for ($x = 0; $x <= 52; $x++) {
+                            echo "✦✧";
+                        } ?></div>
     <article class="gridContainer">
         <img src="<?= $img; ?>" class="inActionImg" alt="<?= $alt; ?>">
         <p class="infoText"><?= "$infoText"; ?></p>
     </article>
     <footer>Source: <?= "$source"; ?></footer>
+    <div class="emojis"><?php for ($x = 0; $x <= 52; $x++) {
+                            echo "✦✧";
+                        } ?></div>
 </div>
