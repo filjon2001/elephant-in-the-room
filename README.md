@@ -24,4 +24,4 @@ Code review written by [Thomas Danielsson](https://github.com/username).
 Tested by the following people:
 
 1. Vali Al Osachi
-2.
+2. Emma Hedlund
