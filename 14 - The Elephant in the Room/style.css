@@ -14,6 +14,11 @@ h1 {
     color: floralwhite;
     text-align: center;
 }
+
+h2 {
+    margin-block-end: 2rem;
+}
+
 .shirtContainer, .buttonContainer {
     display: flex;
     justify-content: center;
@@ -35,25 +40,34 @@ button {
     font-size: 1rem;
 }
 
+article {
+    padding-inline: 1rem;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
 .presentation {
     background-image: url('Background\ presentation.jpg');
     background-size: cover;
 }
 
 .articleHeading {
-    font-family: 'Roboto', 'Inter', sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-size: 3rem;
 }
 
 .infoText {
-    font-family: 'Inter', sans-serif;
-    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    grid-column: 2;
 }
 
 .inActionImg {
-
-}
-
-.source {
-    fon
+    grid-column: 1;
+    width: 24rem;
+    height: 24rem;
+    object-fit: cover;
 }
